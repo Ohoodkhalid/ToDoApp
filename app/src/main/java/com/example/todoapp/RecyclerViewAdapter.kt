@@ -27,8 +27,8 @@ class RecyclerViewAdapter (private val items:ArrayList<String>) : RecyclerView.A
                 if(isChecked){
                     taskTextView.setTextColor(Color.GRAY)
                     countOFcheck  ++
-                  var index=   items.indexOf(items[position])
-                    removeItem(index, countOFcheck )
+               //   var index=   items.indexOf(items[position])
+                 //   removeItem(index, countOFcheck )
 
                 }else{
                     taskTextView.setTextColor(Color.BLACK)
